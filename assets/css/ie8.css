@@ -61,7 +61,7 @@
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-	  .video:before, .image:after{
+	  .video:before, .video:after{
 			display: none !important;
 		}
 
