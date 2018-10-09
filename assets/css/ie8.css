@@ -54,6 +54,22 @@
 			-ms-behavior: url("assets/js/ie/PIE.htc");
 		}
 
+/* Video */
+
+  .video {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+	  .video:before, .image:after{
+			display: none !important;
+		}
+
+		.video img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie.PIE.htc");
+		}
+
 /* Header */
 
 	#header {
