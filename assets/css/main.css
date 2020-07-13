@@ -2637,6 +2637,12 @@
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+                        span {
+                           padding: 1px 8px;
+                           &::before {
+                             content: "\A";
+                           }
+                        }
 		}
 
 		#header strong, #header b {
